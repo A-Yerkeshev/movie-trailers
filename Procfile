@@ -1,1 +1,1 @@
-web: python movies.py
+web: gunicorn application:movies.py
