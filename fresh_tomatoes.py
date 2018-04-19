@@ -158,4 +158,4 @@ def open_movies_page(movies):
     # Replace the movie tiles placeholder generated content
     rendered_content = main_page_head + main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies))
-    return rendered content
+    return rendered_content
