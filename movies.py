@@ -37,7 +37,8 @@ def openPage():
   return fresh_tomatoes.open_movies_page([taxi, taxi_2, taxi_3, taxi_4])
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    port = int(os.environ.get("PORT", 54321)
+    app.run(host='0.0.0.0', port=port)
 
 #Authors attribution
 #https://en.wikipedia.org/w/index.php?curid=24751162
