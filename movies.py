@@ -1,3 +1,4 @@
+import os
 import media
 import fresh_tomatoes
 from flask import Flask
