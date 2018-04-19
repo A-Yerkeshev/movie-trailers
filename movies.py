@@ -36,7 +36,7 @@ taxi_4 = media.Movie("Taxi 4",
 def openPage():
   return fresh_tomatoes.open_movies_page([taxi, taxi_2, taxi_3, taxi_4])
 
-if __name__ == '__main__':)
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
 #Authors attribution
