@@ -1,1 +1,1 @@
-web: python movies.py
+worker: python movies.py
