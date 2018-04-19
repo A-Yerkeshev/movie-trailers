@@ -1,5 +1,8 @@
 import media
 import fresh_tomatoes
+from flask import Flask
+
+app = Flask(__name__)
 
 # Populate the template with data
 taxi = media.Movie("Taxi",
@@ -29,7 +32,12 @@ taxi_4 = media.Movie("Taxi 4",
                      "https://www.youtube.com/watch?v=FVNzRNZDllI")
 
 # Open the page in browser
-fresh_tomatoes.open_movies_page([taxi, taxi_2, taxi_3, taxi_4])
+@app.route('/')
+def openPage():
+  return fresh_tomatoes.open_movies_page([taxi, taxi_2, taxi_3, taxi_4])
+
+if __name__ == '__main__':)
+    app.run(host='0.0.0.0', port=5000)
 
 #Authors attribution
 #https://en.wikipedia.org/w/index.php?curid=24751162
