@@ -11,26 +11,26 @@ taxi = media.Movie("Taxi",
                    driver must chauffeur a loser police inspector on the
                    trail of German bank robbers.''',
                    'static/img/taxi1.jpg',
-                   "static/videos/taxi1.mp4")
+                   "static/video/taxi1.mp4")
 taxi_2 = media.Movie("Taxi 2",
                      '''Police inspector Emilien and his taxi-driver pal
                      Daniel are back, this time on the tail of a group of
                      Japanese yakuza.''',
                      'static/img/taxi2.png',
-                     "static/videos/taxi2.mp4")
+                     "static/video/taxi2.mp4")
 taxi_3 = media.Movie("Taxi 3",
                      '''Out to stop a new gang disguised as Santa Claus, Emilien
                      and Daniel must also handle major changes in their
                      personal relationships.''',
                      'static/img/taxi3.jpg',
-                     "static/videos/taxi3.mp4")
+                     "static/video/taxi3.mp4")
 taxi_4 = media.Movie("Taxi 4",
                      '''Unlucky, clumsy, charming Marseile PD detective Emilien
                      Coutant-Kerbalec must assist worse-than-Clouseau
                      commissioner Gibert guarding a Belgian criminal reputed as
                      dangerous as - and caged like Hannibal Lector.''',
                      'static/img/taxi4.jpg',
-                     "static/videos/taxi4.mp4")
+                     "static/video/taxi4.mp4")
 
 # Open the page in browser
 @app.route('/')
