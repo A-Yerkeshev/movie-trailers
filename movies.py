@@ -10,26 +10,26 @@ taxi = media.Movie("Taxi",
                    '''To work off his tarnished driving record, a hip taxi
                    driver must chauffeur a loser police inspector on the
                    trail of German bank robbers.''',
-                   'img/taxi1.jpg',
+                   'static/img/taxi1.jpg',
                    "https://www.youtube.com/watch?v=BBnlCXi2WWA")
 taxi_2 = media.Movie("Taxi 2",
                      '''Police inspector Emilien and his taxi-driver pal
                      Daniel are back, this time on the tail of a group of
                      Japanese yakuza.''',
-                     'img/taxi2.png',
+                     'static/img/taxi2.png',
                      "https://www.youtube.com/watch?v=XkMZ75BwhCg")
 taxi_3 = media.Movie("Taxi 3",
                      '''Out to stop a new gang disguised as Santa Claus, Emilien
                      and Daniel must also handle major changes in their
                      personal relationships.''',
-                     'img/taxi3.jpg',
+                     'static/img/taxi3.jpg',
                      "https://www.youtube.com/watch?v=XLP-rf3dHOQ")
 taxi_4 = media.Movie("Taxi 4",
                      '''Unlucky, clumsy, charming Marseile PD detective Emilien
                      Coutant-Kerbalec must assist worse-than-Clouseau
                      commissioner Gibert guarding a Belgian criminal reputed as
                      dangerous as - and caged like Hannibal Lector.''',
-                     'img/taxi4.jpg',
+                     'static/img/taxi4.jpg',
                      "https://www.youtube.com/watch?v=FVNzRNZDllI")
 
 # Open the page in browser
