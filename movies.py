@@ -41,10 +41,14 @@ if __name__ == '__main__':
     port = int(os.environ.get("PORT", 4321))
     app.run(host='0.0.0.0', port=port)
 
-#Authors attribution
+# Authors attribution
+# Posters
 #https://en.wikipedia.org/w/index.php?curid=24751162
 #By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=1124037
 #https://en.wikipedia.org/w/index.php?curid=4842798
 #By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=37030442
-
-
+# Youtube videos
+#Cinemusic7888
+#Nilbert Bellingworth
+#expectancy
+#EUROPACORP
